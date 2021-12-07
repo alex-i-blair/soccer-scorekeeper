@@ -1,6 +1,6 @@
 // import functions and grab DOM elements
 import { renderGame } from './render-utils.js';
-const currentGameEl = document.getElementById('current-game-container');
+// const currentGameEl = document.getElementById('current-game-container');
 const pastGamesEl = document.getElementById('past-games-container');
 
 const nameForm = document.getElementById('name-form');
@@ -117,10 +117,10 @@ function makeGame() {
 }
 
 function resetState() {
-    name1 = '';
-    name2 = '';
-    score1 = 0;
-    score2 = 0;
+    name1 = 'Team One';
+    name2 = 'Team Two';
+    score1 = 'Score';
+    score2 = 'Score';
 }
 
 // displayCurrentGameEl();

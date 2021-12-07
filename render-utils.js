@@ -17,6 +17,6 @@ export function renderTeam(name, score) {
     nameDiv.textContent = name;
     scoreDiv.textContent = score;
     teamDiv.append(nameDiv, scoreDiv);
-    console.log(teamDiv.outerHTML);
+    // console.log(teamDiv.outerHTML);
     return teamDiv;
 }
